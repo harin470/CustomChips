@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/custom_chip"
+        layout="@layout/custom_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/custom_chip1"
+        layout="@layout/custom_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom_chip"
+        android:layout_marginTop="10dp" />
+
+    <include
+        android:id="@+id/custom_chip2"
+        layout="@layout/custom_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom_chip1"
+        android:layout_marginTop="10dp" />
+
+    <include
+        android:id="@+id/custom_chip3"
+        layout="@layout/custom_chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom_chip2"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>
