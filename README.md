@@ -1,4 +1,4 @@
-# CustomChips
+# CustomChips v1.0.0
 
 ![First Screen](https://user-images.githubusercontent.com/46577836/65385566-946f4680-dd30-11e9-9ff1-431cbeaea4d9.png)
 ![Item – 1](https://user-images.githubusercontent.com/46577836/65385572-abae3400-dd30-11e9-8198-f0fbe6839dfc.png)
